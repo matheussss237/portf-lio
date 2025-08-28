@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfólio - Matheus Henrique</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background: #c5eeba;
+      color: #000000;
+      scroll-behavior: smooth;
+    }
+    header {
+      background: #439763;
+      color: rgb(255, 255, 255);
+      padding: 3rem 1rem;
+      text-align: center;
+    }
+    header h1 { margin: 0; font-size: 2.5rem; }
+    header p { font-size: 1.2rem; }
+
+    nav {
+      position: sticky;
+      top: 0;
+      background: #2c5539;
+      padding: 0.8rem;
+      text-align: center;
+      z-index: 1000;
+    }
+    nav a {
+      color: rgb(255, 255, 255);
+      margin: 0 1rem;
+      text-decoration: none;
+      font-weight: bold;
+      transition: color 0.3s;
+    }
+    nav a:hover { color: #e1e4e7; }
+
+    section {
+      max-width: 1000px;
+      margin: 2rem auto;
+      padding: 2rem;
+      background: rgb(255, 255, 255);
+      border-radius: 12px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+      animation: fadeIn 1s ease-in-out;
+    }
+    @keyframes fadeIn {
+      from { opacity: 0; transform: translateY(20px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+    h2 {
+      color: #040405;
+      border-bottom: 2px solid #ddd;
+      padding-bottom: .5rem;
+    }
+
+    .skills ul, .projects ul, .social ul {
+      list-style: none;
+      padding: 0;
+    }
+    .skills li, .projects li, .social li {
+      margin: .7rem 0;
+      padding: .6rem;
+      background: #f9fafb;
+      border-radius: 6px;
+    }
+    .projects li {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+    .projects a {
+      background: #040504;
+      color: white;
+      padding: 0.4rem 0.8rem;
+      border-radius: 5px;
+      text-decoration: none;
+      transition: background 0.3s;
+    }
+    .projects a:hover { background: #c7ccd6; }
+
+    footer {
+      text-align: center;
+      padding: 1.2rem;
+      background: #439763;
+      color: white;
+      margin-top: 2rem;
+    }
+    a { color: #1e3a8a; text-decoration: none; }
+    a:hover { text-decoration: underline; }
+  </style>
+</head>
+<body>
+  <header id="topo">
+    <h1>Matheus Henrique Madeira Amorim</h1>
+    <p>Desenvolvedor em formação | 17 anos | Focado em Back-End & Segurança</p>
+  </header>
+
+  <nav>
+    <a href="#sobre">Sobre</a>
+    <a href="#skills">Habilidades</a>
+    <a href="#projetos">Projetos</a>
+    <a href="#formacao">Formação</a>
+    <a href="#contato">Contato</a>
+  </nav>
+
+  <section id="sobre">
+    <h2>Sobre mim</h2>
+    <p>Sou estudante de tecnologia, cursando o ensino médio (manhã e noite). Tenho experiência prática em <strong>Java, Spring Boot, APIs REST e bancos de dados</strong>. Busco oportunidades para aplicar e evoluir minhas habilidades em projetos reais, com interesse especial em <strong>segurança da informação</strong> e <strong>back-end</strong>.</p>
+  </section>
+
+  <section id="skills" class="skills">
+    <h2>Habilidades</h2>
+    <ul>
+      <li>Java, Spring Boot, Spring Security, Spring JPA</li>
+      <li>APIs REST, JWT, autenticação/autorização</li>
+      <li>Bancos de Dados: H2, PostgreSQL, MySQL</li>
+      <li>Front-end: HTML, CSS, JavaScript</li>
+      <li>Git, GitHub, Deploy na Render</li>
+    </ul>
+  </section>
+
+  <section id="projetos" class="projects">
+    <h2>Projetos</h2>
+    <ul>
+      <li>
+        <span><strong>Sistema de Autenticação Segura</strong> – API em Spring Boot com JWT, roles e deploy na Render.</span>
+        <a href="https://github.com/matheussss237">Ver no GitHub</a>
+      </li>
+      <li>
+        <span><strong>E-commerce – Checkout e Carrinho</strong> – Front em HTML/CSS + Back-end Java Spring Boot.</span>
+        <a href="https://github.com/matheussss237">Ver no GitHub</a>
+      </li>
+      <li>
+  </section>
+
+  <section id="formacao">
+    <h2>Formação</h2>
+    <p><strong>Cursando</strong> – Tecnico em desenvolvimento sistemas.</p>
+    <p>Estudo contínuo em <strong>Java, Spring, Git e Segurança</strong> por cursos online (Alura, Udemy, DIO).</p>
+  </section>
+
+  <section id="contato" class="social">
+    <h2>Contato</h2>
+    <ul>
+      <li>Email: <a href="matheus.henrique.madeira1@gmail.com">matheus.henrique.madeira1@gmail.com</a></li>
+      <li>GitHub: <a href="https://github.com/" target="_blank">https://github.com/matheussss237</a></li>
+      <li>LinkedIn: <a href="https://www.linkedin.com/feed/?trk=sem-ga_campid.12619604099_asid.149519181115_crid.725790844702_kw.linkedin_d.c_tid.kwd-148086543_n.g_mt.e_geo.9214449" target="_blank">https://tinyurl.com/5n8bpn4s</a></li>
+    </ul>
+  </section>
+
+  <footer>
+    <p>© 2025 - Desenvolvido por Matheus Henrique</p>
+    <p><a href="#topo" style="color:white;">Voltar ao topo</a></p>
+  </footer>
+</body>
+</html>
